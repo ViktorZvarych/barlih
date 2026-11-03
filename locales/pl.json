@@ -1,0 +1,20 @@
+{
+  "reviewStatus": "NEEDS-REVIEW",
+  "brand": { "name": "Barlih" },
+  "meta": {
+    "title": "Barlih — zaciszny zakątek w Karpatach",
+    "description": "Prywatny domek z sauną i tarasami w Karpatach. Las, cisza i czas tylko dla siebie."
+  },
+  "intro": {
+    "eyebrow": "Domek z sauną · Karpaty",
+    "title": "Z dala od świata",
+    "description": "Własny zaciszny zakątek przy lesie. Prywatny domek z sauną i tarasami na kilka dni bez pośpiechu."
+  },
+  "ui": {
+    "skipToContent": "Przejdź do treści",
+    "languageNavigation": "Język strony",
+    "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
+    "currency": "UAH",
+    "nights": { "one": "{n} noc", "few": "{n} noce", "many": "{n} nocy", "other": "{n} nocy" }
+  }
+}

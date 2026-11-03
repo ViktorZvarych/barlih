@@ -1,0 +1,37 @@
+<!doctype html>
+<!-- GENERATED — edit templates/ and locales/ -->
+<html lang="{{language}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{{head}}}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles/base/tokens.css">
+    <link rel="stylesheet" href="/styles/base/reset.css">
+    <link rel="stylesheet" href="/styles/base/typography.css">
+    <link rel="stylesheet" href="/styles/base/layout.css">
+    <link rel="stylesheet" href="/styles/base/utilities.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{{ui.skipToContent}}</a>
+    <div class="page-shell">
+      <header class="page-masthead">
+        <a class="page-masthead__brand" href="{{pagePath}}">{{brand.name}}</a>
+        <nav class="language-nav" aria-label="{{ui.languageNavigation}}">
+          {{{languageLinks}}}
+        </nav>
+      </header>
+      <main class="page-intro" id="main" tabindex="-1">
+        <div class="page-intro__copy">
+          <p class="page-intro__eyebrow">{{intro.eyebrow}}</p>
+          <h1 class="page-intro__title">{{intro.title}}</h1>
+          <p class="page-intro__text">{{intro.description}}</p>
+        </div>
+        <!-- TODO-OWNER: замінити декоративний плейсхолдер перевіреним фото hero/world.webp. -->
+        <img class="page-intro__media" src="/assets/images/placeholders/panorama.svg" alt="" width="1200" height="700" fetchpriority="high" data-placeholder="true">
+      </main>
+    </div>
+    {{{uiJson}}}
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>

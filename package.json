@@ -1,0 +1,16 @@
+{
+  "name": "barlih",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "python -m http.server 8080 --bind 127.0.0.1",
+    "build": "node tools/build-pages.mjs",
+    "build:prod": "node tools/build-pages.mjs --prod",
+    "build:pseudo": "node tools/build-pages.mjs --pseudo",
+    "build:availability": "node tools/ics-to-availability.mjs",
+    "package": "node tools/package.mjs",
+    "test": "node --test"
+  }
+}

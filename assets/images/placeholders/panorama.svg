@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <!-- TODO-OWNER: декоративний плейсхолдер, замінити фото; це не зображення котеджу. -->
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#141c18"/>
+      <stop offset="1" stop-color="#5c655f"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v700H0z"/>
+  <path fill="#2e4638" d="m0 440 240-160 270 165 230-220 460 225v250H0z"/>
+  <path fill="#141c18" d="m0 550 330-160 250 180 350-170 270 140v160H0z"/>
+  <path fill="#0d1311" d="M0 635q300-105 600-20t600-15v100H0z"/>
+</svg>

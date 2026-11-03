@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- TODO-OWNER: плейсхолдер 1:1 для майбутньої текстури рами. -->
+  <path fill="#141c18" d="M0 0h1024v1024H0z"/>
+  <path fill="none" stroke="#2e4638" stroke-width="2" d="M170 0v1024M512 0v1024M854 0v1024"/>
+</svg>

@@ -1,0 +1,43 @@
+body {
+  background: var(--color-night);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+a {
+  color: inherit;
+  text-underline-offset: var(--space-1);
+}
+
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-amber);
+  outline-offset: var(--focus-offset);
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-night);
+}
+
+.page-intro__title {
+  max-width: 12ch;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-title);
+  font-weight: 400;
+  line-height: var(--line-height-heading);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.page-intro__eyebrow {
+  color: var(--color-amber);
+  font-size: var(--font-size-small);
+  letter-spacing: var(--letter-spacing-label);
+}
+
+.page-intro__text {
+  max-width: var(--text-width);
+  color: var(--color-muted-dark);
+}

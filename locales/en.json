@@ -1,0 +1,20 @@
+{
+  "reviewStatus": "NEEDS-REVIEW",
+  "brand": { "name": "Barlih" },
+  "meta": {
+    "title": "Barlih — your hideaway in the Carpathians",
+    "description": "A private cottage with a sauna and terraces in the Carpathians. Forest, quiet and time to yourselves."
+  },
+  "intro": {
+    "eyebrow": "Cottage with a sauna · Carpathians",
+    "title": "Hide away from the world",
+    "description": "Your own hideaway by the forest. A private cottage with a sauna and terraces for a few unhurried days."
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "languageNavigation": "Website language",
+    "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
+    "currency": "UAH",
+    "nights": { "one": "{n} night", "other": "{n} nights" }
+  }
+}

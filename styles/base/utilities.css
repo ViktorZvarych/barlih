@@ -1,0 +1,22 @@
+.skip-link {
+  position: absolute;
+  top: var(--space-4);
+  left: var(--gutter);
+  z-index: var(--z-overlay);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-small);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  outline-color: var(--color-amber-ink);
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}
