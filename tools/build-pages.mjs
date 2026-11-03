@@ -79,7 +79,7 @@ export function pseudoText(text) {
 
 function pseudoDictionary(value, path = '') {
   if (typeof value === 'string') {
-    if (path === 'reviewStatus' || path === 'brand.name' || path.startsWith('ui.languages.')) return value;
+    if (path === 'reviewStatus' || path === 'brand.name' || path.startsWith('ui.languages.') || path.startsWith('ui.languageLabels.')) return value;
     return pseudoText(value);
   }
   if (Array.isArray(value)) return value.map((entry, index) => pseudoDictionary(entry, `${path}.${index}`));
@@ -173,7 +173,7 @@ function headHtml(dictionary, language) {
 
 function languageLinks(dictionary, language) {
   return CONFIG.i18n.languages.map((code) =>
-    `<a class="language-nav__link" href="${pagePath(code)}" hreflang="${code}" lang="${code}"${language === code ? ' aria-current="page"' : ''} aria-label="${escapeHtml(dictionary.ui.languages[code])}">${code.toUpperCase()}</a>`
+    `<a class="language-nav__link" href="${pagePath(code)}" hreflang="${code}" lang="${code}"${language === code ? ' aria-current="page"' : ''} aria-label="${escapeHtml(dictionary.ui.languages[code])}">${escapeHtml(dictionary.ui.languageLabels[code])}</a>`
   ).join('\n          ');
 }
 

@@ -14,6 +14,7 @@
     "skipToContent": "Przejdź do treści",
     "languageNavigation": "Język strony",
     "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
+    "languageLabels": { "uk": "UA", "en": "EN", "pl": "PL" },
     "currency": "UAH",
     "nights": { "one": "{n} noc", "few": "{n} noce", "many": "{n} nocy", "other": "{n} nocy" }
   }
