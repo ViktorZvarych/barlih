@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "python -m http.server 8080 --bind 127.0.0.1",
     "build": "node tools/build-pages.mjs",
@@ -11,6 +13,10 @@
     "build:pseudo": "node tools/build-pages.mjs --pseudo",
     "build:availability": "node tools/ics-to-availability.mjs",
     "package": "node tools/package.mjs",
-    "test": "node --test"
+    "test": "node --test tests",
+    "fonts:sync": "node tools/sync-fonts.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/manrope": "5.3.0"
   }
 }

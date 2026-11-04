@@ -16,6 +16,7 @@
 
 .page-masthead__brand {
   font-family: var(--font-heading);
+  font-weight: 500;
   font-size: var(--space-8);
   line-height: var(--line-height-heading);
   text-decoration: none;

@@ -1,21 +1,34 @@
 {
   "reviewStatus": "NEEDS-REVIEW",
-  "brand": { "name": "Barlih" },
+  "brand": {
+    "name": "Barlih"
+  },
   "meta": {
-    "title": "Barlih — your hideaway in the Carpathians",
-    "description": "A private cottage with a sauna and terraces in the Carpathians. Forest, quiet and time to yourselves."
+    "title": "Barlih — private cabin with a sauna in the Carpathians",
+    "description": "Your own cozy den by the forest. A private cabin with a sauna and terraces in the Carpathians — forest, quiet and no neighbors."
   },
   "intro": {
-    "eyebrow": "Cottage with a sauna · Carpathians",
+    "eyebrow": "Cabin with a sauna · Carpathians",
     "title": "Hide away from the world",
-    "description": "Your own hideaway by the forest. A private cottage with a sauna and terraces for a few unhurried days."
+    "description": "Your own cozy den by the forest. A private cabin with a sauna and terraces for a few unhurried days."
   },
   "ui": {
     "skipToContent": "Skip to content",
     "languageNavigation": "Website language",
-    "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
-    "languageLabels": { "uk": "UA", "en": "EN", "pl": "PL" },
+    "languages": {
+      "uk": "Українська",
+      "en": "English",
+      "pl": "Polski"
+    },
+    "languageLabels": {
+      "uk": "UA",
+      "en": "EN",
+      "pl": "PL"
+    },
     "currency": "UAH",
-    "nights": { "one": "{n} night", "other": "{n} nights" }
+    "nights": {
+      "one": "{n} night",
+      "other": "{n} nights"
+    }
   }
 }

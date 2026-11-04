@@ -1,21 +1,36 @@
 {
   "reviewStatus": "NEEDS-REVIEW",
-  "brand": { "name": "Barlih" },
+  "brand": {
+    "name": "Barlih"
+  },
   "meta": {
-    "title": "Barlih — zaciszny zakątek w Karpatach",
-    "description": "Prywatny domek z sauną i tarasami w Karpatach. Las, cisza i czas tylko dla siebie."
+    "title": "Barlih — prywatny domek z sauną w Karpatach",
+    "description": "Twoja własna kryjówka przy lesie. Prywatny domek z sauną i tarasami w Karpatach — cisza, góry i brak sąsiadów."
   },
   "intro": {
     "eyebrow": "Domek z sauną · Karpaty",
-    "title": "Z dala od świata",
-    "description": "Własny zaciszny zakątek przy lesie. Prywatny domek z sauną i tarasami na kilka dni bez pośpiechu."
+    "title": "Schowaj się przed światem",
+    "description": "Twoja własna kryjówka przy lesie. Prywatny domek z sauną i tarasami na kilka dni bez pośpiechu."
   },
   "ui": {
     "skipToContent": "Przejdź do treści",
     "languageNavigation": "Język strony",
-    "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
-    "languageLabels": { "uk": "UA", "en": "EN", "pl": "PL" },
+    "languages": {
+      "uk": "Українська",
+      "en": "English",
+      "pl": "Polski"
+    },
+    "languageLabels": {
+      "uk": "UA",
+      "en": "EN",
+      "pl": "PL"
+    },
     "currency": "UAH",
-    "nights": { "one": "{n} noc", "few": "{n} noce", "many": "{n} nocy", "other": "{n} nocy" }
+    "nights": {
+      "one": "{n} noc",
+      "few": "{n} noce",
+      "many": "{n} nocy",
+      "other": "{n} nocy"
+    }
   }
 }

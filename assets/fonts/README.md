@@ -1,5 +1,9 @@
 # Локальні шрифти
 
-TODO-OWNER: додати Cormorant Garamond 400/500 та Manrope 400/500/700 у WOFF2 (кирилиця та latin-ext) разом із ліцензіями та джерелами в `assets/CREDITS.md`.
+Manrope 400/500/700, normal, WOFF2. Кожне накреслення має cyrillic, latin-ext та latin — разом 9 файлів. Базова latin потрібна для англійського тексту, цифр і пунктуації.
 
-Поки файлів немає, `styles/base/tokens.css` використовує Georgia/serif та system-ui/sans-serif. URL не вигадуються. Після додавання реальних файлів підключити `font-display: swap` та preload двох найважливіших накреслень.
+Джерела та версії — в assets/CREDITS.md; незмінені OFL 1.1 — у LICENSES/. Файли зберігаються в проєкті й копіюються до dist разом із ліцензіями.
+
+Оновлення: npm ci --ignore-scripts, потім npm run fonts:sync. Скрипт копіює WOFF2 та OFL із dev-пакетів Fontsource і генерує styles/base/fonts.css зі збереженими unicode-range та font-display: swap. Після цього виконати npm run build і npm run package.
+
+Шаблон має рівно два preload: накреслення Manrope 400 (текст) і 500 (заголовки), cyrillic для uk та latin для en/pl. Інші підмножини завантажуються браузером за потреби. Мережевих запитів до сервісів шрифтів немає.

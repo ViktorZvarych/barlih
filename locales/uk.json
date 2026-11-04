@@ -1,9 +1,11 @@
 {
   "reviewStatus": "source-approved",
-  "brand": { "name": "Barlih" },
+  "brand": {
+    "name": "Barlih"
+  },
   "meta": {
-    "title": "Barlih — ваш власний барліг у Карпатах",
-    "description": "Приватний котедж із банею та терасами в Карпатах. Ліс, тиша та можливість усамітнитися."
+    "title": "Barlih — котедж із банею в Карпатах | Подобова оренда",
+    "description": "Ваш власний барліг біля лісу. Приватний котедж із банею та терасами в Карпатах для кількох днів у тиші та без сусідів."
   },
   "intro": {
     "eyebrow": "Котедж із банею · Карпати",
@@ -13,9 +15,22 @@
   "ui": {
     "skipToContent": "Перейти до вмісту",
     "languageNavigation": "Мова сайту",
-    "languages": { "uk": "Українська", "en": "English", "pl": "Polski" },
-    "languageLabels": { "uk": "UA", "en": "EN", "pl": "PL" },
+    "languages": {
+      "uk": "Українська",
+      "en": "English",
+      "pl": "Polski"
+    },
+    "languageLabels": {
+      "uk": "UA",
+      "en": "EN",
+      "pl": "PL"
+    },
     "currency": "грн",
-    "nights": { "one": "{n} ніч", "few": "{n} ночі", "many": "{n} ночей", "other": "{n} ночі" }
+    "nights": {
+      "one": "{n} ніч",
+      "few": "{n} ночі",
+      "many": "{n} ночей",
+      "other": "{n} ночі"
+    }
   }
 }

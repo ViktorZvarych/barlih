@@ -25,7 +25,7 @@ a {
   max-width: 12ch;
   font-family: var(--font-heading);
   font-size: var(--font-size-title);
-  font-weight: 400;
+  font-weight: 500;
   line-height: var(--line-height-heading);
   overflow-wrap: anywhere;
   text-wrap: balance;

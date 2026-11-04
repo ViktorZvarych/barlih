@@ -209,7 +209,7 @@ export async function buildPages({ rootDir = PROJECT_ROOT, prod = false, pseudo 
   // Спочатку перевіряємо та рендеримо всі мови, лише тоді записуємо результат.
   const pages = CONFIG.i18n.languages.map((language) => {
     const dictionary = pseudo ? pseudoDictionary(dictionaries[language]) : dictionaries[language];
-    const html = renderTemplate(template, { ...dictionary, language, pagePath: pagePath(language) }, {
+    const html = renderTemplate(template, { ...dictionary, language, fontSubset: language === 'uk' ? 'cyrillic' : 'latin', pagePath: pagePath(language) }, {
       head: headHtml(dictionary, language),
       languageLinks: languageLinks(dictionary, language),
       uiJson: `<script type="application/json" id="i18n-ui">${serializeJson(dictionary.ui)}</script>`,
